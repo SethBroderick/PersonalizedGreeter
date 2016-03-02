@@ -9,26 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pbuskell.personalizedgreeter.BeGreeted">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="@string/strNamePlaceholder"
-        android:ems="10"
-        android:id="@+id/edtxtNameField"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="96dp" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/strGetGreeted"
         android:id="@+id/btnGreetMe"
-        android:layout_below="@+id/edtxtNameField"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:onClick="greetTheUser" />
+        android:onClick="greetTheUser"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,6 +34,38 @@
         android:text="@string/strPromptQuestion"
         android:id="@+id/txtvwPrompt"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Last name"
+        android:ems="10"
+        android:id="@+id/edtxtLstNameField"
+        android:layout_below="@+id/edtxtMdlNameField"
+        android:layout_alignLeft="@+id/edtxtMdlNameField"
+        android:layout_alignStart="@+id/edtxtMdlNameField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Middle Name"
+        android:ems="10"
+        android:id="@+id/edtxtMdlNameField"
+        android:layout_below="@+id/edtxtNameField"
+        android:layout_alignLeft="@+id/edtxtNameField"
+        android:layout_alignStart="@+id/edtxtNameField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="First name"
+        android:ems="10"
+        android:id="@+id/edtxtNameField"
+        android:layout_below="@+id/txtvwPrompt"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
