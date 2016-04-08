@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.EditText;
 
 public class BeGreeted extends AppCompatActivity {
+    //This App was created by Seth Friedenberger.
     //I made this idea on a story board, but had modified it along the way due to the fact that
     //the way I imagined it would be far to advanced for my level.
     //I implemented code structure from apps I have made in the past. (Never have coded before)
