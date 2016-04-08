@@ -18,7 +18,7 @@ public class BeGreeted extends AppCompatActivity {
     String strFavColor = "";
     String strFavMovie = "";
 
-//Code fort the "Start Conversation" button.
+    //Code fort the "Start Conversation" button.
 
     Button btnStartConvo;
     EditText edtxtFdField;
