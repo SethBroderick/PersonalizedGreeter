@@ -9,12 +9,16 @@ import android.widget.TextView;
 import android.widget.EditText;
 
 public class BeGreeted extends AppCompatActivity {
+    //I made this idea on a story board, but had modified it along the way, as the way I imagined it would be far to advanced for my level.
+    //I implemented code structure from apps I have made in the past. (Never have coded before)
 
-    String strUsersName = "";
-    String strMiddleName = "";
-    String strLastName = "";
+    String strFavFood = "";
+    String strFavColor = "";
+    String strFavMovie = "";
 
-    Button btnGreetMe;
+//Code fort the "Start Conversation" button.
+
+    Button btnStartConvo;
     EditText edtxtNameField;
     EditText edtxtMdlNameField;
     EditText edtxtLstNameField;
@@ -26,7 +30,7 @@ public class BeGreeted extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_be_greeted);
 
-        btnGreetMe = (Button) findViewById(R.id.btnGreetMe);
+        btnStartConvo = (Button) findViewById(R.id.btnStartConvo);
         edtxtNameField = (EditText) findViewById(R.id.edtxtNameField);
         edtxtMdlNameField = (EditText) findViewById(R.id.edtxtMdlNameField);
         edtxtLstNameField = (EditText) findViewById(R.id.edtxtLstNameField);
@@ -37,10 +41,12 @@ public class BeGreeted extends AppCompatActivity {
     {
         Resources res = getResources();
 
-        strUsersName = edtxtNameField.getText().toString();
-        strMiddleName = edtxtMdlNameField.getText().toString();
-        strLastName = edtxtLstNameField.getText().toString();
+        strFavFood = edtxtNameField.getText().toString();
+        strFavColor = edtxtMdlNameField.getText().toString();
+        strFavMovie = edtxtLstNameField.getText().toString();
 
-        txtvwGreetingSpace.setText(String.format(res.getString(R.string.strGreeting), strUsersName, strMiddleName, strLastName));
+        //This is the code for displaying the text after pressing, "Start Conversation".
+
+        txtvwGreetingSpace.setText(String.format(res.getString(R.string.strGreeting), strFavFood, strFavColor, strFavMovie));
     }
 }

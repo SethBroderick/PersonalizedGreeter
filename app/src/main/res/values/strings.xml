@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">PersonalizedGreeter</string>
-    <string name="strPromptQuestion">What is your full name?</string>
-    <string name="strGetGreeted">Get Greeted!</string>
-    <string name="strUsersName">Name</string>
-    <string name="strGreeting">Hello, %1$s %2$s %3$s!</string>
-    <string name="strMiddleName">Name</string>
-    <string name="strLastName">Name</string>
+    <string name="app_name">YourFavorites</string>
+    <string name="strPromptQuestion">List your favorites in the topics below!</string>
+    <string name="strStartConvo">Start Conversation!</string>
+    <string name="strUsersName">Food</string>
+    <string name="strGreeting">I love %1$s! %2$s is such a nice color! %3$s is very interesting!</string>
+    <string name="strMiddleName">Color</string>
+    <string name="strLastName">Movie</string>
 </resources>

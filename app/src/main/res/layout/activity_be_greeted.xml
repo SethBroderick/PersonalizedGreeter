@@ -12,8 +12,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/strGetGreeted"
-        android:id="@+id/btnGreetMe"
+        android:text="@string/strStartConvo"
+        android:id="@+id/btnStartConvo"
         android:onClick="greetTheUser"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/txtvwGreetingSpace"
-        android:layout_below="@+id/btnGreetMe"
+        android:layout_below="@+id/btnStartConvo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="77dp" />
 
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Last name"
+        android:text="Movie"
         android:ems="10"
         android:id="@+id/edtxtLstNameField"
         android:layout_below="@+id/edtxtMdlNameField"
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Middle Name"
+        android:text="Color"
         android:ems="10"
         android:id="@+id/edtxtMdlNameField"
         android:layout_below="@+id/edtxtNameField"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="First name"
+        android:text="Food"
         android:ems="10"
         android:id="@+id/edtxtNameField"
         android:layout_below="@+id/txtvwPrompt"
