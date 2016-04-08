@@ -9,7 +9,8 @@ import android.widget.TextView;
 import android.widget.EditText;
 
 public class BeGreeted extends AppCompatActivity {
-    //I made this idea on a story board, but had modified it along the way, as the way I imagined it would be far to advanced for my level.
+    //I made this idea on a story board, but had modified it along the way due to the fact that
+    //the way I imagined it would be far to advanced for my level.
     //I implemented code structure from apps I have made in the past. (Never have coded before)
 
     String strFavFood = "";
@@ -19,9 +20,9 @@ public class BeGreeted extends AppCompatActivity {
 //Code fort the "Start Conversation" button.
 
     Button btnStartConvo;
-    EditText edtxtNameField;
-    EditText edtxtMdlNameField;
-    EditText edtxtLstNameField;
+    EditText edtxtFdField;
+    EditText edtxtClrField;
+    EditText edtxtMvieField;
     TextView txtvwGreetingSpace;
 
 
@@ -31,9 +32,9 @@ public class BeGreeted extends AppCompatActivity {
         setContentView(R.layout.activity_be_greeted);
 
         btnStartConvo = (Button) findViewById(R.id.btnStartConvo);
-        edtxtNameField = (EditText) findViewById(R.id.edtxtNameField);
-        edtxtMdlNameField = (EditText) findViewById(R.id.edtxtMdlNameField);
-        edtxtLstNameField = (EditText) findViewById(R.id.edtxtLstNameField);
+        edtxtFdField = (EditText) findViewById(R.id.edtxtFdField);
+        edtxtClrField = (EditText) findViewById(R.id.edtxtClrField);
+        edtxtMvieField = (EditText) findViewById(R.id.edtxtMvieField);
         txtvwGreetingSpace = (TextView) findViewById(R.id.txtvwGreetingSpace);
     }
 
@@ -41,9 +42,9 @@ public class BeGreeted extends AppCompatActivity {
     {
         Resources res = getResources();
 
-        strFavFood = edtxtNameField.getText().toString();
-        strFavColor = edtxtMdlNameField.getText().toString();
-        strFavMovie = edtxtLstNameField.getText().toString();
+        strFavFood = edtxtFdField.getText().toString();
+        strFavColor = edtxtClrField.getText().toString();
+        strFavMovie = edtxtMvieField.getText().toString();
 
         //This is the code for displaying the text after pressing, "Start Conversation".
 

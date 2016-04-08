@@ -42,10 +42,10 @@
         android:inputType="textPersonName"
         android:text="Movie"
         android:ems="10"
-        android:id="@+id/edtxtLstNameField"
-        android:layout_below="@+id/edtxtMdlNameField"
-        android:layout_alignLeft="@+id/edtxtMdlNameField"
-        android:layout_alignStart="@+id/edtxtMdlNameField" />
+        android:id="@+id/edtxtMvieField"
+        android:layout_below="@+id/edtxtClrField"
+        android:layout_alignLeft="@+id/edtxtClrField"
+        android:layout_alignStart="@+id/edtxtClrField" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -53,10 +53,10 @@
         android:inputType="textPersonName"
         android:text="Color"
         android:ems="10"
-        android:id="@+id/edtxtMdlNameField"
-        android:layout_below="@+id/edtxtNameField"
-        android:layout_alignLeft="@+id/edtxtNameField"
-        android:layout_alignStart="@+id/edtxtNameField" />
+        android:id="@+id/edtxtClrField"
+        android:layout_below="@+id/edtxtFdField"
+        android:layout_alignLeft="@+id/edtxtFdField"
+        android:layout_alignStart="@+id/edtxtFdField" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         android:inputType="textPersonName"
         android:text="Food"
         android:ems="10"
-        android:id="@+id/edtxtNameField"
+        android:id="@+id/edtxtFdField"
         android:layout_below="@+id/txtvwPrompt"
         android:layout_centerHorizontal="true" />
 
